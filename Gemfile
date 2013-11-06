@@ -12,7 +12,7 @@ gem 'bootstrap-sass', '>= 3.0.0.0'
 gem 'cancan'
 gem 'figaro'
 gem 'omniauth'
-gem 'omniauth-github'
+gem 'omniauth-https-x509', git: 'git@github.com:gpr/omniauth-https-x509.git'
 gem 'rolify'
 gem 'simple_form'
 group :development do
